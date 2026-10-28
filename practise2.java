@@ -14,6 +14,7 @@ public Object[][]login()
 			{
 					{"Admin", "password123"},
 					{"Admin1", "password1234"},
+{"Admin2", "password1234"},
 			};
 }
 @Test(dataProvider= "testing")
