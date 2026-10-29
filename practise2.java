@@ -12,9 +12,10 @@ public Object[][]login()
 {
 	return  new Object[][]
 			{
+					
 					{"Admin", "password123"},
 					{"Admin1", "password1234"},
-{"Admin2", "password1234"},
+					{"Admin2", "password"},
 			};
 }
 @Test(dataProvider= "testing")
@@ -22,5 +23,6 @@ public void result(String username, String password)
 {
 	System.out.println("email" + username);
 	System.out.println("password" +password);
+	System.out.println(" welldone nice work");
 }
 }
